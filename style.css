@@ -1,0 +1,41 @@
+#boardBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+    height: 240px;
+}
+
+.cells {
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    width: 28px;
+    height: 28px;
+    background-color: gainsboro;
+}
+
+.board {
+    flex-wrap: wrap;
+    display: flex;
+    width: 240px;
+    height: 240px;
+}
+
+.hiddenCell {
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    width: 28px;
+    height: 28px;
+    background-color: cornflowerblue;
+}
+
+.mine {
+    width: 28px;
+    height: 28px;
+    background-color: cornflowerblue;
+}
+
+.mineExplode {
+    background-color: crimson;
+}
